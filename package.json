@@ -1,0 +1,23 @@
+{
+	"name": "typescript-project",
+	"version": "1.0.0",
+	"description": "typescript-project",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "tsc && concurrently \"tsc -w\" \"lite-server\""
+	},
+	"keywords": [
+		"typescript",
+		"course"
+	],
+	"author": "rastz",
+	"license": "ISC",
+	"devDependencies": {
+		"lite-server": "^2.5.4"
+	},
+	"dependencies": {
+		"concurrently": "^5.1.0",
+		"typescript": "^3.8.3"
+	}
+}
